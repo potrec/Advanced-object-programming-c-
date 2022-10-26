@@ -32,7 +32,7 @@ int main() {
 
 //    zadanie1();
 //    zadanie2();
-//      zadanie3();
+      zadanie3();
 
 
 
@@ -76,17 +76,21 @@ void zadanie3(){
     employess = new Employee*[3];
     for (int i = 0; i < 3; i++) {
         employess[i] = new Developer("Kowalski", 20, 2+i, 2000+i);
+        employess[i]->calculateBonus(1);
+        employess[i] -> show();
 
 
     }
     employess2 = new Employee*[3];
     for (int i = 0; i < 3; i++) {
         employess2[i] = new TeamLeader("Kowalski", 30, 10-i, 2000-i);
+        employess2[i]->calculateBonus(1);
+        employess2[i] -> show();
     }
-    whoWorkMoreThan5Years(employess, 3);
-    whoWorkMoreThan5Years(employess2, 3);
-    howManyEarnLessThanMeanBonus(employess, 3);
-    howManyEarnLessThanMeanBonus(employess2, 3);
+//    whoWorkMoreThan5Years(employess, 3);
+//    whoWorkMoreThan5Years(employess2, 3);
+//    howManyEarnLessThanMeanBonus(employess, 3);
+//    howManyEarnLessThanMeanBonus(employess2, 3);
 
 }
 void whoWorkMoreThan5Years(Employee *tab[], int size) {
