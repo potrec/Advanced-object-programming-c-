@@ -11,11 +11,11 @@ using namespace std;
 class Citizen {
 private:
 public:
-    const string &getName() const;
+    string getName() const;
 
     void setName(const string &name);
 
-    const string &getSurname() const;
+    string getSurname() const;
 
     void setSurname(const string &surname);
 
@@ -27,10 +27,11 @@ public:
 
     void setSex(char sex);
 
-    const string &getPostalCode() const;
+    string getPostalCode() const;
 
     void setPostalCode(const string &postalCode);
 
+    void show();
 private:
     string name;
     string surname;
@@ -41,7 +42,7 @@ private:
 public:
     Citizen();
 
-    Citizen(const string &name, const string &surname, int age, char sex, const string &postalCode);
+    Citizen(string name,string surname, int age, char sex, string postalCode);
 
 };
 
