@@ -38,7 +38,7 @@ void City::show_citizens() {
 }
 
 void City::show_city() {
-    //Show city name
+    cout << citizens.getCityName() << endl;
 
 
 }
