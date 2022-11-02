@@ -7,7 +7,7 @@
 #include "Compare.h"
 #include "Citizen.h"
 #include "City.h"
-
+#include <time.h>
 
 using namespace std;
 
@@ -39,6 +39,64 @@ void showMark(Student &s) {
     cout << s.getMark() << " ";
 }
 
+void showCities(vector<City> c) {
+    cout << "Miasta: " << endl;
+    for (int i = 0; i < c.size(); i++) {
+        cout << c[i].getCityName() << " ";
+    }
+}
+
+void the_most(vector<City> c, int mode) {
+    int max = 0;
+    int index = 0;
+    if (mode == 1) {
+        for (int i = 0; i < c.size(); i++) {
+            cout << "Miasto" << c[i].getCityName() << " ma:" << c[i].City_size() << " mieszkancow" << endl;
+            if (c[i].City_size() > max) {
+                max = c[i].City_size();
+                index = i;
+            }
+        }
+        cout << "Najwieksza liczba mieszkancow: " << c[index].getCityName() << endl;
+    } else if (mode == 2) {
+        int min = c[0].City_size();
+        for (int i = 0; i < c.size(); i++) {
+            cout << "Miasto" << c[i].getCityName() << " ma:" << c[i].City_size() << " mieszkancow" << endl;
+            if (c[i].City_size() < min) {
+                min = c[i].City_size();
+                index = i;
+            }
+        }
+        cout << "Najmniejsza liczba mieszkancow: " << c[index].getCityName() << endl;
+    }
+}
+
+void statatistic(vector<City> c) {
+//    funkcja wyświetlająca statystykę, dla każdego miasta:
+//    nazwę miasta, liczbę mieszkańców tego miasta wraz z podziałem na liczbę kobiet oraz
+//    mężczyzn, osób niepełnoletnich i pełnoletnich
+
+    for (int i = 0; i < c.size(); i++) {
+        cout << "Miasto: " << c[i].getCityName() << endl;
+        cout << "Liczba mieszkancow: " << c[i].City_size() << endl;
+        c[i].women();
+        c[i].city_citizens();
+        c[i].adults();
+        c[i].kids();
+
+    }
+}
+
+void sort_cities(vector <City> &c){
+    for (int i = 0; i < c.size(); i++) {
+        for (int j = 0; j < c.size() - 1; j++) {
+            if (c[j].City_size() > c[j + 1].City_size()) {
+                swap(c[j], c[j + 1]);
+            }
+        }
+    }
+}
+
 void zad2() {
     vector<int> v;
     int n = rand() % 100;
@@ -55,26 +113,12 @@ void zad3() {
     vector<City> cities;
     //Push 10 cities
     vector<string> cityname;
-    cityname.push_back("Lublin");
-    cities.push_back(City(cityname));
-    cityname.push_back("Krakow");
-    cities.push_back(City(cityname));
-    cityname.push_back("Warszawa");
-    cities.push_back(City(cityname));
-    cityname.push_back("Wroclaw");
-    cities.push_back(City(cityname));
-    cityname.push_back("Gdansk");
-    cities.push_back(City(cityname));
-    cityname.push_back("Poznan");
-    cities.push_back(City(cityname));
-    cityname.push_back("Szczecin");
-    cities.push_back(City(cityname));
-    cityname.push_back("Bydgoszcz");
-    cities.push_back(City(cityname));
-    cityname.push_back("Lodz");
-    cities.push_back(City(cityname));
-    cityname.push_back("Katowice");
-    cities.push_back(City(cityname));
+    City lublyn = City("Lublyn");
+    cities.push_back(lublyn);
+    City warsaw = City("Warsaw");
+    cities.push_back(warsaw);
+
+
 //    for (int i = 0; i < 10; i++) {
 //        vector<string> city_name;
 //        city_name.push_back("City");
@@ -82,25 +126,58 @@ void zad3() {
 //        city_name.push_back(to_string(i));
 //        cities.push_back(City(city_name));
 //    }
+    srand(time(NULL));
     //Generate 100 citizens
+    string * postal_codes = new string[100];
+    for (int i = 0; i < 100; i++) {
+        if(i < 30){
+            postal_codes[i] = "20-100";
+        } else if(i < 60){
+            postal_codes[i] = "30-100";
+        } else if(i < 90){
+            postal_codes[i] = "40-100";
+        } else{
+            postal_codes[i] = "50-100";
+        }
+    }
+
     for (int i = 0; i < 100; i++) {
         string name = "Name" + to_string(i);
         string surname = "Surname" + to_string(i);
         int age = rand() % 100;
         char sex = rand() % 2 == 0 ? 'm' : 'f';
-        string postal_code = to_string(rand() % 10) + to_string(rand() % 10) + "-" + to_string(rand() % 10) + to_string(rand() % 10) +
-                             to_string(rand() % 10);
-        Citizen citizen(name, surname, age, sex, postal_code);
-        cities[rand() % 10].addCitizen(citizen);
+//        string postal_code = to_string(rand() % 10) + to_string(rand() % 10) + "-" + to_string(rand() % 10) +
+//                             to_string(rand() % 10) +
+//                             to_string(rand() % 10);
+        Citizen citizen(name, surname, age, sex, postal_codes[i]);
+        if (i % 3 == 0) {
+            cities[1].addCitizen(citizen);
+        } else {
+            cities[0].addCitizen(citizen);
+        }
     }
-    //Show all citizens
-//    for (int i = 0; i < 10; i++) {
-//        cities[i].show_city();
-//        cities[i].show_citizens();
-//
-//    }
-    cities[1].show_city();
 
+//    cities[0].show_city();
+//    cities[0].show_citizens();
+//    cities[1].show_city();
+//    cities[1].show_citizens();
+//    cout<<endl;
+//    cout<<"Panie: "<<endl;
+//    cities[1].women();
+//    cities[1].city_citizens();
+//    cities[1].adults();
+//    showCities(cities);
+//    showCities(cities);
+//    the_most(cities, 1);
+//    the_most(cities, 2);
+      showCities(cities);
+//    statatistic(cities);
+//    sort_cities(cities);
+//    cout<<endl;
+//    showCities(cities);
+        cities[0].postal_codes();
+        cout<<endl;
+        cities[1].postal_codes();
 
 
 }
@@ -212,9 +289,7 @@ int main() {
 //    sort(st.begin(), st.end(), Compare());
 //    for_each(st.begin(), st.end(), showMark);
 
-//    zad2();
+//     zad2();
     zad3();
 
 }
-
-

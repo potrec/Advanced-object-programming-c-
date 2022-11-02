@@ -14,19 +14,14 @@ using namespace std;
 
 class City {
 private:
-
     vector<Citizen> citizens;
-    vector<string> city_name;
-public:
-    const vector<string> &getCityName() const;
-
-    void setCityName(const vector<string> &cityName);
+    string city_name;
 
 public:
-
-    explicit City(const vector<string> &cityName);
-
-
+    explicit City(const string &cityName);
+    string getCityName();
+    virtual ~City();
+    void setCityName(string cityName);
     void addCitizen(Citizen citizen);
 
     void deleteCitizen(string surname, int age);
@@ -40,15 +35,10 @@ public:
     void city_citizens();
 
     void adults();
+    void kids();
 
     void postal_codes();
-
-//    void showCities(vector<City> cities);
-//    void the_most(vector<City> cities, int mode);
-//    void statistics(vector<City> cities);
-//    void sort_cities(vector<City> &cities);
-
-
+    int City_size();
 };
 
 
