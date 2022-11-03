@@ -124,22 +124,25 @@ int findDuplicate(vector<int> s) {
 
 
 void zadanie1() {
-    vector<int> s = {1, 2, 3, 3 ,3, 3};
+    vector<int> s = {1, 2, 3, 3 ,2, 1};
     cout << findDuplicate(s) << endl;
 }
+template <typename T>
+void exclusiveAlternative(set<T> s1, set<T>s2){
+    cout<<"s1:"<<endl;
+    show(s1);
+    cout<<"s2:"<<endl;
+    show(s2);
 
-//void exclusiveAlternative(set<int>s1,set<int>s2){
-//    set<int> sUnion, sIntersec, sDiffer;
-//    set_union(s1.begin(), s1.end(), s2.begin(), s2.end(), insert_iterator(sUnion, sUnion.begin()));
-//    set_intersection(s1.begin(), s1.end(), s2.begin(), s2.end(), insert_iterator(sIntersec, sIntersec.begin()));
-//    set_difference(s1.begin(), s1.end(), s2.begin(), s2.end(), insert_iterator(sDiffer, sDiffer.begin()));
-//    cout << "sUnion: ";
-//    show(sUnion);
-//    cout << "sIntersec: ";
-//    show(sIntersec);
-//    cout << "sDiffer: ";
-//    show(sDiffer);
-//}
+    set<T> setIntersection;
+    set<T> setUnion;
+    set<T> res;
+    set_intersection(s1.begin(), s1.end(), s2.begin(), s2.end(), insert_iterator(setIntersection, setIntersection.begin()));
+    set_union(s1.begin(), s1.end(), s2.begin(), s2.end(), insert_iterator(setUnion, setUnion.begin()));
+    set_difference(setUnion.begin(), setUnion.end(), setIntersection.begin(), setIntersection.end(), insert_iterator(res, res.begin()));
+    cout<<"Elementy wystepujace tylko w jednym zbiorze: "<<endl;
+    show(res);
+}
 void zadanie2() {
     set<int> s1 = {1, 2, 3, 7};
     set<int> s2 = {-2, 4, 1, 7, 6};
@@ -147,7 +150,7 @@ void zadanie2() {
     show(s1);
     cout << "s2: ";
     show(s2);
-    //exclusiveAlternative(s1,s2);
+    exclusiveAlternative(s1,s2);
 }
 string z3(string s1,string s2){
     string s3;
@@ -162,18 +165,21 @@ string z3(string s1,string s2){
         m.insert(make_pair(s2[i],i));
     }
     for (int i = 0; i < s2.length(); i++) {
-        if (m.count(s1[i]) > 0) {
-            cout << m.count(s1[i]) << s1[i] << " ";
-        } else{
+        if (m.count(s1[i]) == 0) {
+            cout << m.count(s1[i]) <<"-"<< s2[i] << " ";
             s3 += s2[i];
+        } else{
+            cout << m.count(s1[i]) <<"-"<< s1[i] << " ";
         }
     }
+    cout << endl;
     return s3;
 }
 void zadanie3(){
-    cout<<z3("abc","cbaTg");
+    cout<<z3("abc","cbaD");
 }
 void zadanie4(){
+    cout<<endl;
     Dictionary d;
     d.addWord("kot","cat");
     d.addWord("pies","dog");
@@ -201,10 +207,10 @@ int main() {
 //    listing_1();
 //    listing_2();
 //    listing_3();
-//    zadanie1();
-//    zadanie2();
+    zadanie1();
+    zadanie2();
     zadanie3();
-//    zadanie4();
+    zadanie4();
     return 0;
 }
 
