@@ -151,12 +151,23 @@ void zadanie2() {
 }
 string z3(string s1,string s2){
     string s3;
+//    for (int i = 0; i < s2.length(); i++) {
+//        cout << s2[i] << " ";
+//        if (s1.find(s2[i]) == string::npos)
+//            s3 += s2[i];
+//    }
+//    cout << endl;
+    map<char,int> m;
     for (int i = 0; i < s2.length(); i++) {
-        cout << s2[i] << " ";
-        if (s1.find(s2[i]) == string::npos)
-            s3 += s2[i];
+        m.insert(make_pair(s2[i],i));
     }
-    cout << endl;
+    for (int i = 0; i < s2.length(); i++) {
+        if (m.count(s1[i]) > 0) {
+            cout << m.count(s1[i]) << s1[i] << " ";
+        } else{
+            s3 += s2[i];
+        }
+    }
     return s3;
 }
 void zadanie3(){
@@ -192,8 +203,8 @@ int main() {
 //    listing_3();
 //    zadanie1();
 //    zadanie2();
-//    zadanie3();
-    zadanie4();
+    zadanie3();
+//    zadanie4();
     return 0;
 }
 
