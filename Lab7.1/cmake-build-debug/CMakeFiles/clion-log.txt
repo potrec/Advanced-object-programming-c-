@@ -1,0 +1,164 @@
+"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.3/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\potrec\CLionProjects\Zaawansowane_programowanie_obiektowe_(C++)-Laboratorium\Lab7.1 -B C:\Users\potrec\CLionProjects\Zaawansowane_programowanie_obiektowe_(C++)-Laboratorium\Lab7.1\cmake-build-debug
+CMake Warning (dev) at CMakeLists.txt:22:
+  Syntax Warning in cmake code at column 44
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:22:
+  Syntax Warning in cmake code at column 49
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:23:
+  Syntax Warning in cmake code at column 27
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:23:
+  Syntax Warning in cmake code at column 28
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:25:
+  Syntax Warning in cmake code at column 26
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:25:
+  Syntax Warning in cmake code at column 46
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:26:
+  Syntax Warning in cmake code at column 21
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:26:
+  Syntax Warning in cmake code at column 43
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:27:
+  Syntax Warning in cmake code at column 30
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:27:
+  Syntax Warning in cmake code at column 51
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:28:
+  Syntax Warning in cmake code at column 25
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:28:
+  Syntax Warning in cmake code at column 47
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:29:
+  Syntax Warning in cmake code at column 34
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:29:
+  Syntax Warning in cmake code at column 55
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:32:
+  Syntax Warning in cmake code at column 17
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:32:
+  Syntax Warning in cmake code at column 81
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:35:
+  Syntax Warning in cmake code at column 18
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:35:
+  Syntax Warning in cmake code at column 71
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:38:
+  Syntax Warning in cmake code at column 18
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:38:
+  Syntax Warning in cmake code at column 82
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:39:
+  Syntax Warning in cmake code at column 18
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:39:
+  Syntax Warning in cmake code at column 71
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:44:
+  Syntax Warning in cmake code at column 18
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:44:
+  Syntax Warning in cmake code at column 72
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:45:
+  Syntax Warning in cmake code at column 18
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error at CMakeLists.txt:48:
+  Parse error.  Function missing ending ")".  Instead found unterminated
+  string with text ")
+
+      endforeach (QT_LIB)
+
+  endif ()
+
+  ".
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/potrec/CLionProjects/Zaawansowane_programowanie_obiektowe_(C++)-Laboratorium/Lab7.1/cmake-build-debug/CMakeFiles/CMakeOutput.log".

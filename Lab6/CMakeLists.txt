@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.23)
+project(Lab6)
+
+set(CMAKE_CXX_STANDARD 14)
+set(BOOST_ROOT "C:/boost_1_80_0")
+set(BOOSTROOT "C:/boost_1_80_0")
+set(Boost_INCLUDE_DIR C:/boost_1_80_0/)
+set(Boost_LIBRARY_DIR C:/boost_1_80_0/stage/lib)
+find_package(Boost)
+IF (Boost_FOUND)
+    include_directories(${Boost_INCLUDE_DIR})
+endif()
+add_executable(Lab6 main.cpp)

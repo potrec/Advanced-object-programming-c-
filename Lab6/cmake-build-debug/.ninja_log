@@ -1,0 +1,5 @@
+# ninja log v5
+0	1178	6897402990610295	CMakeFiles/Lab6.dir/main.cpp.obj	e079ebddc1ab17e0
+416	581	6897376931416742	Lab6.exe	a74fa23f31a141d3
+3	453	6897402999204198	build.ninja	77976bb6e77945d4
+11	76	6897435555099445	CMakeFiles/Lab6.dir/main.cpp.obj	e079ebddc1ab17e0
