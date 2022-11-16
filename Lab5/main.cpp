@@ -137,9 +137,9 @@ void exclusiveAlternative(set<T> s1, set<T>s2){
     set<T> setIntersection;
     set<T> setUnion;
     set<T> res;
-    set_intersection(s1.begin(), s1.end(), s2.begin(), s2.end(), insert_iterator(setIntersection, setIntersection.begin()));
-    set_union(s1.begin(), s1.end(), s2.begin(), s2.end(), insert_iterator(setUnion, setUnion.begin()));
-    set_difference(setUnion.begin(), setUnion.end(), setIntersection.begin(), setIntersection.end(), insert_iterator(res, res.begin()));
+//    set_intersection(s1.begin(), s1.end(), s2.begin(), s2.end(), insert_iterator(setIntersection, setIntersection.begin()));
+//    set_union(s1.begin(), s1.end(), s2.begin(), s2.end(), insert_iterator(setUnion, setUnion.begin()));
+//    set_difference(setUnion.begin(), setUnion.end(), setIntersection.begin(), setIntersection.end(), insert_iterator(res, res.begin()));
     cout<<"Elementy wystepujace tylko w jednym zbiorze: "<<endl;
     show(res);
 }
