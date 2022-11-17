@@ -1,19 +1,20 @@
 cmake_minimum_required(VERSION 3.23)
-project(Lab7)
+project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
+set(CMAKE_PREFIX_PATH "C:/Qt/6.5.0/mingw_64/lib/cmake")
 
-find_package(Qt5 COMPONENTS
+find_package(Qt6 COMPONENTS
         Core
         REQUIRED)
 
-add_executable(Lab7 main.cpp CarCatalog.cpp CarCatalog.h)
-target_link_libraries(Lab7
-        Qt5::Core
+add_executable(untitled main.cpp CarCatalog.cpp CarCatalog.h Car.cpp Car.h Country.cpp Country.h Countries.cpp Countries.h)
+target_link_libraries(untitled
+        Qt::Core
         )
 
 if (WIN32)
@@ -40,7 +41,7 @@ if (WIN32)
     foreach (QT_LIB Core)
         add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
                 COMMAND ${CMAKE_COMMAND} -E copy
-                "${QT_INSTALL_PATH}/bin/Qt5${QT_LIB}${DEBUG_SUFFIX}.dll"
+                "${QT_INSTALL_PATH}/bin/Qt6${QT_LIB}${DEBUG_SUFFIX}.dll"
                 "$<TARGET_FILE_DIR:${PROJECT_NAME}>")
     endforeach (QT_LIB)
 endif ()

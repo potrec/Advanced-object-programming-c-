@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="untitled"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\Qt\;CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\;CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\;CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\;CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\;CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\;CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6Core\;CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6CoreTools\;CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6ZlibPrivate\;CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6EntryPointPrivate\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled">
+				<Option output="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/untitled.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DWIN32"/>
+					<Add option="-D_ENABLE_EXTENDED_ALIGNED_STORAGE"/>
+					<Add option="-DWIN64"/>
+					<Add option="-D_WIN64"/>
+					<Add option="-DMINGW_HAS_SECURE_API=1"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/untitled_autogen/include"/>
+					<Add directory="C:/Qt/6.5.0/mingw_64/include/QtCore"/>
+					<Add directory="C:/Qt/6.5.0/mingw_64/include"/>
+					<Add directory="C:/Qt/6.5.0/mingw_64/mkspecs/win32-g++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled/fast">
+				<Option output="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/untitled.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DWIN32"/>
+					<Add option="-D_ENABLE_EXTENDED_ALIGNED_STORAGE"/>
+					<Add option="-DWIN64"/>
+					<Add option="-D_WIN64"/>
+					<Add option="-DMINGW_HAS_SECURE_API=1"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/untitled_autogen/include"/>
+					<Add directory="C:/Qt/6.5.0/mingw_64/include/QtCore"/>
+					<Add directory="C:/Qt/6.5.0/mingw_64/include"/>
+					<Add directory="C:/Qt/6.5.0/mingw_64/mkspecs/win32-g++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled_autogen">
+				<Option working_dir="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled_autogen"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/Car.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/Car.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/CarCatalog.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/CarCatalog.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/Countries.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/Countries.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/Country.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/Country.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/untitled_autogen/mocs_compilation.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/main.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/Qt6Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/QtFeature.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/QtFeatureCommon.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/QtInstallPaths.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6ZlibPrivate\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6ZlibPrivate\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6ZlibPrivate\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersionImpl.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6ZlibPrivate\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6ZlibPrivate\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6ZlibPrivate\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointMinGW32Target.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6EntryPointPrivate\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6EntryPointPrivate\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6EntryPointPrivate\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6EntryPointPrivate\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersionImpl.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6EntryPointPrivate\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6EntryPointPrivate\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6EntryPointPrivate\"/>
+		</Unit>
+		<Unit filename="C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/../../../../../../../../Qt/6.5.0/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Qt\6.5.0\mingw_64\lib\cmake\Qt6EntryPointPrivate\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
