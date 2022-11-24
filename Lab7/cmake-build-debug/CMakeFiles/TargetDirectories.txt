@@ -1,4 +1,4 @@
-C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/CMakeFiles/untitled.dir
-C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug/CMakeFiles/untitled_autogen.dir
+C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/Lab7/cmake-build-debug/CMakeFiles/untitled.dir
+C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/Lab7/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/Lab7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/Lab7/cmake-build-debug/CMakeFiles/untitled_autogen.dir

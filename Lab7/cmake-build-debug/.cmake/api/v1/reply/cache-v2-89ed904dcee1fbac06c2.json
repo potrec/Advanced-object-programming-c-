@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug"
+			"value" : "c:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/Lab7/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -731,7 +731,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled"
+			"value" : "C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/Lab7"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -3815,7 +3815,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug"
+			"value" : "C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/Lab7/cmake-build-debug"
 		},
 		{
 			"name" : "untitled_IS_TOP_LEVEL",
@@ -3839,7 +3839,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled"
+			"value" : "C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/Lab7"
 		}
 	],
 	"kind" : "cache",

@@ -41,7 +41,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "untitled::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-untitled-Debug-78205b0bb08c15a3578e.json",
+					"jsonFile" : "target-untitled-Debug-d83df9b7fdeef09bc170.json",
 					"name" : "untitled",
 					"projectIndex" : 0
 				},
@@ -58,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled/cmake-build-debug",
-		"source" : "C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/untitled"
+		"build" : "C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/Lab7/cmake-build-debug",
+		"source" : "C:/Users/123lu/OneDrive/Pulpit/Pollub/c++/Advanced-object-programming-c-/Lab7"
 	},
 	"version" : 
 	{
