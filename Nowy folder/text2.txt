@@ -1,0 +1,60 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+
+int main() {
+
+
+    
+
+
+    try {
+        ifstream fileIf;
+        fileIf.open(
+                "C:/Users/123lu/OneDrive/Pulpit/Pollub/Aplikacje Internetowe/Advanced-object-programming-c-/Lab8/text.txt");
+
+        ofstream fileOf;
+        fileOf.open(
+                "C:/Users/123lu/OneDrive/Pulpit/Pollub/Aplikacje Internetowe/Advanced-object-programming-c-/Lab8/text2.txt");
+
+        string line;
+        bool isComment = false;
+        
+
+        while(getline(fileIf, line)){
+            for(int i = 0; i < line.length(); i++){
+                if(line[i] == '/' && line[i+1] == '/'){
+                    break;
+                }
+                else if(line[i] == '/' && line[i+1] == '*'){
+                    isComment = true;
+                }
+                else if(line[i] == '*' && line[i+1] == '/'){
+                    isComment = false;
+                    i++;
+                }
+                else if(!isComment){
+                    fileOf << line[i];
+                }
+            }
+            fileOf << endl;
+        }
+        
+        fileIf.close();
+        fileOf.close();
+    } catch (exception e) {
+        cout << "Error: " << e.what() << endl;
+    }
+    
+
+
+
+
+
+
+
+
+    return 0;
+}
