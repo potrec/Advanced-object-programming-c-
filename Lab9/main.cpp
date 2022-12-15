@@ -1,6 +1,7 @@
 #include <iostream>
 #include <regex>
 #include <fstream>
+#include <map>
 
 void checkStringIfFloat(std::string str)
 {
@@ -90,6 +91,37 @@ void readFromUser()
     std::getline(std::cin, str);
     checkPerson(str);
 }
+std::string readFromFile(int row,int column){
+    std::ifstream file;
+    file.open("file.txt");
+    if (file.is_open())
+    {
+        std::string str;
+        std::string result;
+        for (int i = 0; i < row; i++)
+        {
+            std::getline(file, str);
+        }
+        int counter = 0;
+        for (int i = 0; i < str.length(); i++)
+        {
+            if (str[i] == ';')
+            {
+                counter++;
+            }
+            if (counter == column)
+            {
+                result += str[i];
+            }
+        }
+        return result;
+    }
+    else
+    {
+        std::cout << "File does not exist" << std::endl;
+    }
+    file.close();
+}
 void statistic(){
     std::ifstream file;
     file.open("file.txt");
@@ -100,6 +132,44 @@ void statistic(){
             count++;
         }
         std::cout<<"Number of people in file: "<<count<<std::endl;
+        std::map<std::string,int> domains;
+        for(int i = 0; i <= count; i++){
+            std::string domain = readFromFile(i,4);
+            int index = domain.find('@');
+            domain = domain.substr(index+1);
+            if(domain != ""){
+                domains[domain]++;
+            }
+        }
+        for(auto it = domains.begin(); it != domains.end(); it++){
+            std::cout<<"Domain: "<<it->first<<" number: "<<it->second<<std::endl;
+        }
+        for(int i = 0; i <= count; i++){
+            std::string number = readFromFile(i,3);
+            checkStringIfFloat(number);
+            if(number[number.length()-1] % 2 == 0){
+                std::cout<<"Last digit in phone number  is divisible by 2"<<std::endl;
+            }
+            else{
+                std::cout<<"Last digit in phone number is not divisible by 2"<<std::endl;
+            }
+            number.erase(std::remove(number.begin(),number.end(),';'),number.end());
+            if(number != ""){
+                std::cout<<"Phone number: "<<number<<std::endl;
+            }
+        }
+        std::map<std::string,int> names;
+        for(int i = 0; i <= count; i++){
+            std::string name = readFromFile(i,0);
+            name.erase(std::remove(name.begin(),name.end(),';'),name.end());
+            if(name != ""){
+                names[name]++;
+            }
+        }
+        for(auto it = names.begin(); it != names.end(); it++){
+            std::cout<<"Name: "<<it->first<<" number: "<<it->second<<std::endl;
+        }
+
     }
     else{
         std::cout<<"File does not exist"<<std::endl;
@@ -125,7 +195,8 @@ int main() {
 //    for(int i = 0; i < 5; i++){
 //        readFromUser();
 //    }
-//    statistic();
+    statistic();
+    //readFromFile(1,1);
     return 0;
 }
 
