@@ -1,0 +1,3 @@
+C:/Users/123lu/OneDrive/Pulpit/Pollub/Aplikacje Internetowe/Advanced-object-programming-c-/Lab12/cmake-build-debug/CMakeFiles/Lab12.dir
+C:/Users/123lu/OneDrive/Pulpit/Pollub/Aplikacje Internetowe/Advanced-object-programming-c-/Lab12/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/123lu/OneDrive/Pulpit/Pollub/Aplikacje Internetowe/Advanced-object-programming-c-/Lab12/cmake-build-debug/CMakeFiles/rebuild_cache.dir
